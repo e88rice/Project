@@ -1,0 +1,256 @@
+html{
+    background: linear-gradient(
+            to bottom,
+            rgba(0,0,0,0) 10%,
+            rgba(0,0,0,0.5) 25%,
+            rgba(0,0,0,0.7) 40%,
+            rgba(0,0,0,0.8) 50%,
+            rgba(0,0,0,1) 80%,
+            rgba(0,0,0,1) 50%
+    ),
+    url("../image/1920.jpg");
+    color: white;
+}
+.overlap-group{
+    margin: 0;
+    padding: 0;
+    -webkit-backdrop-filter: brightness(1.1) blur(40px);
+    backdrop-filter: brightness(1.1) blur(40px);
+}
+
+#product-real-introduce{
+    width: 530px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+#top-navi{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#top-navi-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+#top-navi-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.navi-btns{
+    display: flex;
+    align-items: center;
+}
+.main-logo{
+    margin-right: 30px;
+    width: 100px;
+}
+.live-btn{
+    margin-right: 30px;
+}
+.live-btn{
+    margin-right: 30px;
+}
+.tv-program{
+    margin-right: 30px;
+}
+.movie{
+    margin-right: 30px;
+}
+.paramount{
+    margin-right: 30px;
+}
+.serach{
+    margin-right: 50px;
+}
+.user-icon > img{
+    width: 40px;
+}
+
+#product-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4%;
+    padding-top: 30px;
+    border-bottom: 1px solid hsla(0,0%,100%,.7);
+    padding-bottom: 50px;
+}
+#product-info-left{
+    padding-top: 20px;
+}
+#product-title{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.product-tags{
+    display: flex;
+    padding-top: 20px;
+}
+
+.product-tags > span {
+    display: block;
+    line-height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 0.3em;
+    padding: 2px 6px;
+    height: 30px;
+}
+
+.product-tags > img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.product-tags > span:nth-child(1){
+    background-color: rgba(0,155,119,.9);
+}
+
+.product-tags > span:nth-child(2){
+    background-color: rgba(237,47,78,.9);
+}
+
+.product-tags > span:nth-child(n+3){
+    box-shadow: inset 0 0 0 1px hsl(0deg 0% 100% / 30%);
+    color: hsla(0,0%,100%,.7);
+}
+
+.product-buy-btn{
+    display: flex;
+    padding-top: 30px;
+}
+
+.product-buy-btn > a > button {
+    width: 250px;
+    height: 80px;
+    margin-right: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 0.2em;
+}
+
+.jjim-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.jjim-btn > i, .share-btn > i{
+    color: rgba(255,255,255,0.9);
+}
+
+.jjim-btn > span, .share-btn > span{
+    font-size: 20px;
+}
+
+.share-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 34px;
+    text-align: center;
+}
+
+#product-info-right > img {
+    width: 18vw;
+}
+
+.product-introduce{
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: hsla(0,0%,100%,.7);
+}
+.product-introduce > div > span{
+    margin-left: 25px;
+}
+
+.product-introduce > button {
+    display: flex;
+    align-items: center;
+    color: hsla(0,0%,100%,.7);
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+}
+.product-introduce-more > button {
+    display: flex;
+    align-items: center;
+    color: hsla(0,0%,100%,.7);
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+}
+
+#more-btn, #close-btn{
+    border: none;
+    cursor: pointer;
+}
+
+.more-movie{
+    margin: 0 4%;
+}
+
+.more-movie > div:nth-child(1){
+    padding: 20px 0;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.movie-list{
+    display: flex;
+    overflow: hidden;
+}
+.more-movie-contents > button {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.more-movie-contents >  img {
+    width: 280px;
+    margin-right: 10px;
+    border-radius: 0.2em;
+}
+
+.more-movie-contents > button > img {
+    width: 280px;
+    margin-right: 10px;
+    border-radius: 0.2em;
+}
+
+.more-movie-contents > div {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.more-movie-contents > span {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    color: #cccccc;
+    padding-right: 10px;
+}
+
+.not-movie-contents-time > span {
+    font-size: 15px;
+    color: #838383;
+}
